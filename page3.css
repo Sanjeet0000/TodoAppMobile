@@ -1,0 +1,226 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    height: 1368px;
+}
+
+.title{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 90px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px #7B7B7B29;
+}
+
+.subtitle{
+    position: absolute;
+    top: 90px;
+    width: 100vw;
+    height: 120px;
+
+}
+
+.tasks{
+    position: relative;
+    font-size: 45px;
+    top: 20px;
+    left: 130px;
+    font-weight: bold;
+    color: black;
+    background-color: #ffffff;
+}
+
+.list{
+    position: relative;
+    font-size: 45px;
+    top:20px;
+    left: 130px;
+    font-weight: bold;
+    color: #00A5EC;
+    background-color: #ffffff;
+}
+
+.backbutton{
+    position: absolute;
+    top: 45px;
+    left: 420px;
+    font-size: 35px;
+}
+
+.back{
+    position: absolute;
+    top: 50px;
+    left: 460px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+.circle{
+    position: absolute;
+    top: 40px;
+    left: 720px;
+}
+
+.circle:hover{
+    cursor: pointer;
+}
+
+.addnewtask{
+    position: relative;
+    top: 50px;
+    left: 770px;
+    font-size: 25px;
+    font-weight: 500;
+    color: black;
+}
+
+.addnewtask:hover{
+    cursor: pointer;
+} 
+
+.card1{
+    position:absolute;
+    top: 230px;
+    left: 400px;
+    background-color: #ffffff;
+    height: 350px;
+    width:530px;
+    border-radius: 12px;
+    border: 1px solid #EDEDED;
+}
+.card1:hover{
+    box-shadow: 0px 0px 20px lightgray;
+}
+
+
+.heading1{
+    position: absolute;
+    background-color: #ffffff;
+    color: #00A5EC;
+    border-bottom: 1px solid whitesmoke;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+}
+.checkbox{
+    position:absolute;
+    top: 150px;
+    left:30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 4px;
+} 
+
+
+.checkbox2{
+    position:absolute;
+    top: 210px;
+    left:30px; 
+    height: 30px;
+    width: 30px;
+    appearance: none;
+    border-radius: 4px;
+    border: 1px solid #EDEDED;
+    background-color: #f7f7f7;
+}
+
+.opt1{
+    
+    position: absolute;
+    top: 156px;
+    left: 95px;
+    font-size: 22px;
+    color: #C2C2C2;
+    text-decoration: line-through;
+    background-color: #ffffff;
+}
+
+.opt2{
+    position:absolute;
+    top: 215px;
+    left: 95px; 
+    font-size: 22px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.backbutton1{
+    text-decoration: none;
+    color: black;
+}
+
+
+/****************************************************************/
+@media only screen and ( max-width:360px ) 
+{
+.title{
+    width: 360px;
+    height: 60px;
+}
+
+.tasks{
+    font-size: 24px;
+    left: 15px;
+    top:15px;
+}
+
+.list{
+    font-size: 24px;
+    top:15px;
+    left: 15px;
+}
+
+.subtitle{
+    top: 60px;
+    width: 360px;
+    height: 120px;
+}   
+
+.circle{
+    left: 160px;
+    font-size: 40px;
+}
+.back{
+    top: 55px;
+    left: 57px;
+    font-size: 18px;
+}
+.backbutton{
+    top: 47px;
+    left: 20px;
+    font-size: 20px;
+}
+.addnewtask{
+    display: none;
+}
+.card1{
+    top: 180px;
+    left: 10px;
+    width: 330px;
+}
+.heading1{
+    font-size: 21px;
+}
+.checkbox{
+    top: 120px;
+}
+.opt1{
+    top: 125px;
+    font-size: 20px;
+}
+.checkbox2{
+    top: 185px;
+}
+.opt2{
+    top: 190px;
+    font-size: 20px;
+}
+}
